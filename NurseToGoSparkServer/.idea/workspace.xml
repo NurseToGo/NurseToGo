@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="" />
+    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\project\target\config-classes\$338e78923544ad9d62e0$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\project\target\config-classes\$338e78923544ad9d62e0$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\project\target\config-classes\$338e78923544ad9d62e0.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\project\target\config-classes\$338e78923544ad9d62e0.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$46ae76b92ff09b3784b8$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$46ae76b92ff09b3784b8$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$46ae76b92ff09b3784b8$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$46ae76b92ff09b3784b8.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$46ae76b92ff09b3784b8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$774e047d64bd1763d82a$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$774e047d64bd1763d82a$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$774e047d64bd1763d82a.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$774e047d64bd1763d82a.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$81775b57e6f1e9351edf$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$81775b57e6f1e9351edf$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$81775b57e6f1e9351edf.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$81775b57e6f1e9351edf.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9d6a5fb2dff32773c16d$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9d6a5fb2dff32773c16d$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9d6a5fb2dff32773c16d.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9d6a5fb2dff32773c16d.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9faa7a8c6621a580781a$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9faa7a8c6621a580781a$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9faa7a8c6621a580781a.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$9faa7a8c6621a580781a.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$c2f9f685eb1afa48a29b$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$c2f9f685eb1afa48a29b$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$c2f9f685eb1afa48a29b.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$c2f9f685eb1afa48a29b.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$d672ff7aefe6b7ff511b$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$d672ff7aefe6b7ff511b$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$d672ff7aefe6b7ff511b.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$d672ff7aefe6b7ff511b.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$e29eba880132b858607a$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$e29eba880132b858607a$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$e29eba880132b858607a.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGo\NurseToGo\NurseToGoSparkServer\project\target\config-classes\$e29eba880132b858607a.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SparkNurseToGo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,17 +104,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+              <caret line="55" column="88" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwitterSentimentMain.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwitterSentimentMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2014134">
-              <caret line="44" column="82" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -70,7 +124,19 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/SentimentAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerTestingAndroid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4958217">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -125,6 +191,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -144,8 +213,9 @@
         <option value="$PROJECT_DIR$/src/main/java/TweetWithSentiment.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/iOSConnector.scala" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/TweetWithSentiment.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" />
       </list>
     </option>
   </component>
@@ -162,7 +232,7 @@
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -185,33 +255,34 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -221,11 +292,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -239,11 +310,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -265,11 +336,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -284,18 +355,14 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sentimental" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -313,37 +380,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NutritionData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkNurseToGo" />
+              <option name="myItemId" value="NurseToGoSparkServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -363,9 +404,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NurseToGoSparkServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NurseToGoSparkServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NurseToGoSparkServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NurseToGoSparkServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NurseToGoSparkServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NurseToGoSparkServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,9 +471,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
@@ -386,22 +484,7 @@
       <recent name="E:\Technical course\Course\RT-BigData\SparkNurseToGo\src\main\resources\MovieData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwitterSentimentMain">
-    <configuration default="false" name="NurseToGoMain" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Spark.Recommendation.NurseToGoMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparknursetogo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.NurseToGoMain">
     <configuration default="false" name="TwitterSentimentMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -419,6 +502,41 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="sparknursetogo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NurseToGoMain (1)" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Spark.Recommendation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Spark.Recommendation.NurseToGoMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nursetogosparkserver" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NurseToGoMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Spark.Recommendation.NurseToGoMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nursetogosparkserver" />
       <envs />
       <method />
     </configuration>
@@ -732,19 +850,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NurseToGoMain (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NurseToGoMain (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1446512342686" />
+    <option name="lastUpdateTimestamp" value="1446864242078" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -757,11 +877,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="sparknursetogo" />
+                <option name="name" value="nursetogosparkserver" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="sparknursetogo-build" />
+                <option name="name" value="nursetogosparkserver-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -771,8 +891,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="D:/test/testApp" value="1443493959812" />
         <entry key="$PROJECT_DIR$/../Class_lab/6- Spark (II)/Tutorial 6 - Spark Streaming/Tutorial 6 - Spark Streaming/TwitterSparkStreaming" value="1442279308000" />
+        <entry key="D:/test/testApp" value="1443493959812" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -796,11 +916,18 @@
       <workItem from="1446413029102" duration="4181000" />
       <workItem from="1446476159852" duration="29000" />
       <workItem from="1446512273108" duration="1311000" />
+      <workItem from="1446858747760" duration="1483000" />
+      <workItem from="1446860467225" duration="2050000" />
+      <workItem from="1446862616218" duration="96000" />
+      <workItem from="1446862766587" duration="137000" />
+      <workItem from="1446862920464" duration="359000" />
+      <workItem from="1446863308536" duration="742000" />
+      <workItem from="1446864156009" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28532000" />
+    <option name="totallyTimeSpent" value="33726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
@@ -808,13 +935,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43097642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5030675" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.4969325" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34848484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29907975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -823,14 +952,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3956229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -882,14 +1009,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/Recommendation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/iOSConnector.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -932,7 +1051,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +1101,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,7 +1159,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,7 +1201,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,7 +1251,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,14 +1352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/iOSConnector.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1253,10 +1374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/SentimentAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1269,10 +1390,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2014134">
-          <caret line="44" column="82" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="88" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/SentimentAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4958217">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1330,12 +1469,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sparknursetogo</last-edited>
+          <last-edited>nursetogosparkserver</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

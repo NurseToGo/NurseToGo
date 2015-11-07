@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparknursetogo.iml" filepath="$PROJECT_DIR$/.idea/modules/sparknursetogo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparknursetogo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sparknursetogo-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" filepath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" filepath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" />
     </modules>
   </component>
 </project>
