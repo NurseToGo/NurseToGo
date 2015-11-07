@@ -33,7 +33,7 @@ public class ServerTestingAndroid {
                 System.out.println("message: " + dataInputStream.readUTF());
                 dataOutputStream.writeBytes(dataInputStream.readUTF());
                 // if(dataInputStream.readUTF().isEmpty())
-                //   dataOutputStream.writeUTF("Hello! I didn't get any text from you");
+                dataOutputStream.writeUTF("Hello! I didn't get any text from you");
                 // else{
                 //     dataOutputStream.writeUTF(dataInputStream.readUTF());
                 /// }
