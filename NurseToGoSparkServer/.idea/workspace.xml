@@ -968,7 +968,7 @@
       <workItem from="1446862920464" duration="359000" />
       <workItem from="1446863308536" duration="742000" />
       <workItem from="1446864156009" duration="24696000" />
-      <workItem from="1446978415582" duration="540000" />
+      <workItem from="1446978415582" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -988,11 +988,17 @@
       <option name="project" value="LOCAL" />
       <updated>1446978729014</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed Spark code to establish connection with iOS and Spark">
+      <created>1446978966636</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1446978966636</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58635000" />
+    <option name="totallyTimeSpent" value="58718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
