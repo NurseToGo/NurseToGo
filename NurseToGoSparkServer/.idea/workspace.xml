@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/age-calorie.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/food-calorie.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/Recommendation.scala" afterPath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/Recommendation.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" afterPath="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/NutritionData/age-calorie.dat" afterPath="$PROJECT_DIR$/src/main/resources/NutritionData/age-calorie.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/iOSConnector.scala" afterPath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/iOSConnector.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/NutritionData/age-calorie.dat" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/NutritionData/age-calorie.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -55,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NurseToGoMain.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NurseToGoMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6012862">
-              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+            <state vertical-scroll-proportion="-15.24138">
+              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
               <folding>
                 <element signature="e#30#57#0" expanded="true" />
               </folding>
@@ -89,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerTestingAndroid.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ServerTestingAndroid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.5081522">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -182,12 +177,12 @@
         <option value="$PROJECT_DIR$/src/main/java/TweetWithSentiment.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/TweetWithSentiment.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/iOSConnector.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/NutritionData/age-calorie.dat" />
         <option value="$PROJECT_DIR$/data/age-calorie.dat" />
         <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/Recommendation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" />
       </list>
     </option>
   </component>
@@ -530,7 +525,7 @@
       <recent name="E:\Technical course\Course\RT-BigData\SparkNurseToGo\src\main\resources\MovieData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NurseToGoMain (1)">
+  <component name="RunManager" selected="Application.ServerTestingAndroid">
     <configuration default="false" name="NurseToGoMain (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -939,11 +934,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NurseToGoMain (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ServerTestingAndroid" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ServerTestingAndroid" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NurseToGoMain (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
       </list>
     </recent_temporary>
   </component>
@@ -1006,7 +1001,7 @@
       <workItem from="1446862766587" duration="137000" />
       <workItem from="1446862920464" duration="359000" />
       <workItem from="1446863308536" duration="742000" />
-      <workItem from="1446864156009" duration="18426000" />
+      <workItem from="1446864156009" duration="24696000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -1014,15 +1009,21 @@
       <option name="project" value="LOCAL" />
       <updated>1446864529553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Spark code to establish connection with iOS and Spark">
+      <created>1446940450049</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446940450049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51825000" />
+    <option name="totallyTimeSpent" value="58095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1035,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.4969325" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38047138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29907975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1093,7 +1094,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Android server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Android server" />
+    <MESSAGE value="Changed Spark code to establish connection with iOS and Spark" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Spark code to establish connection with iOS and Spark" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,14 +1476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Kafka/Spark/Sentimental/TwitterSentimentMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1536,11 +1530,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6012862">
-          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
           <folding>
             <element signature="e#30#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5081522">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

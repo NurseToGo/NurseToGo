@@ -31,12 +31,18 @@ public class ServerTestingAndroid {
                 dataOutputStream = new DataOutputStream(socket.getOutputStream());
                 System.out.println("ip: " + socket.getInetAddress());
                 System.out.println("message: " + dataInputStream.readUTF());
-                dataOutputStream.writeBytes(dataInputStream.readUTF());
-                // if(dataInputStream.readUTF().isEmpty())
-                dataOutputStream.writeUTF("Hello! I didn't get any text from you");
+                //dataOutputStream.writeUTF("Hello!..I am listening..");
                 // else{
                 //     dataOutputStream.writeUTF(dataInputStream.readUTF());
                 /// }
+                /**serverSocket.accept socket = ();
+                 DataInputStream = new DataInputStream (socket.getInputStream ());
+                 DataOutputStream = new DataOutputStream (socket.getOutputStream ());
+                 DataStream = dataInputStream.readUTF String ();
+                 System.out.println ("ip:" + socket.getInetAddress ());
+                 System.out.println ("message:" + dataInputStream.readUTF ());
+                 dataOutputStream.writeUTF (DataStream);
+                 */
 
             } catch (IOException e) {
                 // TODO Auto-generated catch block
