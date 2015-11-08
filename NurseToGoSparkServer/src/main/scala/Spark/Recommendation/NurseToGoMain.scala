@@ -8,6 +8,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
  * Created by hastimal on 10/22/2015.
+ * For group1
  */
 
 
