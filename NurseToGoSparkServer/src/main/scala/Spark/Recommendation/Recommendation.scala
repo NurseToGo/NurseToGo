@@ -185,27 +185,36 @@ object Recommendation {
     })
   }
   def foodRecommend(sc:SparkContext, input:String, inputGender:String): Unit ={
-    val nutritionDataHomeDir = "src/main/resources/NutritionData"
+
+    System.out.println(input,inputGender);
+    val nutritionDataHomeDir = "data/"
     //val movieLensHomeDir = "movieLens/"
+    System.out.println("I am in foodRecommend")
     val ageData = sc.textFile(new File(nutritionDataHomeDir,"age-calorie.dat").toString).filter(line => line.contains(" "+input+"-"))
+    //val ageData = sc.textFile("src/main/resources/NutritionData/age-calorie.dat").filter(line => line.contains(" "+input+"-"))
     val genderdata = ageData.filter(line => line.contains("-"+inputGender)).collect()
+    //System.out.println("ageData "+ageData.collect().mkString("")+"genderData "+genderdata.mkString(""))
+    //ageData.collect().foreach(println)
+    //genderdata.foreach(println)
     val calorieNeeded = genderdata.mkString("").replaceAll(" "+input+"-"+inputGender+"-","")
     System.out.println("Calories needed: "+calorieNeeded)
+    //System.out.println("ageData "+ageData+" genderData "+genderdata+" Calorie needed "+calorieNeeded)
     val calories = calorieNeeded.toInt
+
     if(calories >= 1400 && calories < 2000 )
     {
       System.out.println("\n1400-2000 \n 1 cup fruits, 1 cup vegetables, 2 cups Dairy, 4 ounces Grains, 12 grams oil")
-    //  iOSConnector.sendCommandToRobot("recommendations:::1 cup fruits, 1 cup vegetables, 2 cups Dairy, 4 ounces Grains, 12 grams oil")
+      iOSConnector.sendCommandToRobot("recommendations:::1 cup fruits, 1 cup vegetables, 2 cups Dairy, 4 ounces Grains, 12 grams oil")
     }
     else if(calories >= 2000 && calories < 2400 )
     {
       System.out.println("\n2000-2400 \n 1 cup fruits, 2 cup vegetables, 1 cups Dairy, 3 ounces Grains, 14 grams oil")
-      //iOSConnector.sendCommandToRobot("recommendations:::1 cup fruits, 2 cup vegetables, 1 cups Dairy, 3 ounces Grains, 14 grams oil")
+      iOSConnector.sendCommandToRobot("recommendations:::1 cup fruits, 2 cup vegetables, 1 cups Dairy, 3 ounces Grains, 14 grams oil")
     }
     else if(calories >= 2400 && calories <= 3200 )
     {
       System.out.println("\n2400-3200 \n 1 cup fruits, 2 cup vegetables, 1 cups Dairy, 3 ounces Grains, 15 grams oil")
-      //iOSConnector.sendCommandToRobot("recommendations:::1 cup fruits, 2 cup vegetables, 1 cups Dairy, 3 ounces Grains, 15 grams oil")
+      iOSConnector.sendCommandToRobot("recommendations:::1 cup fruits, 2 cup vegetables, 1 cups Dairy, 3 ounces Grains, 15 grams oil")
     }
   }
 }

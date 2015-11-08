@@ -19,15 +19,15 @@ object NurseToGoMain {
     val sc=ssc.sparkContext
 
     /*----to be removed----*/
-    NutritionCalculation.findCalorie(sc,"vegetable burger")
-    Recommendation.foodRecommend(sc,"5","male")
-    val sentimentAnalyzer: SentimentAnalyzer = new SentimentAnalyzer
-    val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("Food is delicious")
-    System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
-    /*--------------------------*/
+//    NutritionCalculation.findCalorie(sc,"vegetable burger")
+    //Recommendation.foodRecommend(sc,"18","male")
+//    val sentimentAnalyzer: SentimentAnalyzer = new SentimentAnalyzer
+//    val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("Food is delicious")
+//    System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
+//    /*--------------------------*/
 
     var age:String = ""
-    val ip=InetAddress.getByName("10.205.0.90").getHostName
+    val ip=InetAddress.getByName("192.168.1.16").getHostName
     val lines=ssc.socketTextStream(ip,1234)
 
     val command= lines.map(x=>{
@@ -36,27 +36,26 @@ object NurseToGoMain {
     })
     command.foreachRDD(
       rdd=> {
-        if (rdd.collect().contains("RECOMMEND:::age")) {
-          System.out.println("Got Recommend command")
-          Recommendation.recommend(rdd.context) //it was commented
-          age = rdd.collect().mkString("").replace("RECOMMEND:::age","")
-          System.out.println(age)
 
+        if (rdd.collect().mkString("").contains("RECOMMEND:::AGE/")) {
+          System.out.println("Got Recommend command")
+          //Recommendation.recommend(rdd.context) //it was commented
+          age = rdd.collect().mkString("").replace("RECOMMEND:::AGE/","")
+          System.out.println(age)
         }
-        else if (rdd.collect().contains("RECOMMEND:::gender")) {
+        else if (rdd.collect().mkString("").contains("RECOMMEND:::GENDER/")) {
           System.out.println("Got Recommend command")
           //Recommendation.recommend(rdd.context)
-          val gender = rdd.collect().mkString("").replace("RECOMMEND:::gender","")
+          val gender = rdd.collect().mkString("").replace("RECOMMEND:::GENDER/","")
           System.out.println(gender)
           Recommendation.foodRecommend(sc,age,gender)
-
         }
-//        else if (rdd.collect().contains("SENTIMENT")) {
-//          val sentimentAnalyzer: SentimentAnalyzer = new SentimentAnalyzer
-//          val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("click here for your Sachin Tendulkar personalized digital autograph.")
-//          System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
-//          iOSConnector.sendCommandToRobot("sentiment:::"+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
-//        }
+        else if (rdd.collect().contains("SENTIMENT")) {
+          val sentimentAnalyzer: SentimentAnalyzer = new SentimentAnalyzer
+          val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("click here for your Sachin Tendulkar personalized digital autograph.")
+          System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
+          //iOSConnector.sendCommandToRobot("sentiment:::"+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
+        }
        // TwitterSentimentMain.main(args: Array[String])
 
         else if (rdd.collect().contains("PARSE")) {
