@@ -16,6 +16,7 @@
         android:id="@+id/address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="192.168.1.16"
         android:hint="IP Address" />
     <EditText
         android:id="@+id/port"
@@ -23,14 +24,15 @@
         android:layout_height="wrap_content"
         android:hint="Port Number"
         android:layout_below="@+id/address"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/connect"
         android:layout_width="137dp"
         android:layout_height="wrap_content"
         android:text="Connect..."
-        android:layout_alignTop="@+id/clear"
+        android:layout_below="@+id/port"
         android:layout_toRightOf="@+id/response"
         android:layout_toEndOf="@+id/response" />
 
@@ -39,14 +41,26 @@
         android:layout_width="163dp"
         android:layout_height="wrap_content"
         android:text="Clear"
-        android:layout_below="@+id/port"
-        android:layout_alignRight="@+id/port"
-        android:layout_alignEnd="@+id/port"
-        android:layout_gravity="right" />
-
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/connect"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
     <TextView
         android:id="@+id/response"
         android:layout_below="@+id/connect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spark"
+        android:id="@+id/buttonToSpark"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/port"
+        android:layout_alignEnd="@+id/port" />
+
+
 </RelativeLayout>
