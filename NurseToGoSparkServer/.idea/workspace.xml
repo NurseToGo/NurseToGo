@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/app/src/main/java/com/umkc/hastimal/nursetogo/ThirdActivity.java" afterPath="$PROJECT_DIR$/../NurseToGoClient/app/src/main/java/com/umkc/hastimal/nursetogo/ThirdActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/app/src/main/res/layout/activity_third.xml" afterPath="$PROJECT_DIR$/../NurseToGoClient/app/src/main/res/layout/activity_third.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -49,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NurseToGoMain.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NurseToGoMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36298934">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerTestingAndroid.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ServerTestingAndroid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.9402175">
+              <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -94,7 +95,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#540#541#0" expanded="false" />
+                <element signature="e#567#568#0" expanded="false" />
+                <element signature="e#602#603#0" expanded="false" />
+                <element signature="e#633#634#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -492,7 +498,7 @@
       <recent name="E:\Technical course\Course\RT-BigData\SparkNurseToGo\src\main\resources\MovieData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NurseToGoMain (1)">
+  <component name="RunManager" selected="Application.ServerTestingAndroid">
     <configuration default="false" name="NurseToGoMain (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -901,8 +907,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NurseToGoMain (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ServerTestingAndroid" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ServerTestingAndroid" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NurseToGoMain (1)" />
         <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
         <item index="3" class="java.lang.String" itemvalue="Application.NurseToGoMain" />
         <item index="4" class="java.lang.String" itemvalue="Application.TwitterSentimentMain" />
@@ -970,7 +976,7 @@
       <workItem from="1446863308536" duration="742000" />
       <workItem from="1446864156009" duration="24696000" />
       <workItem from="1446978415582" duration="884000" />
-      <workItem from="1446979600988" duration="125000" />
+      <workItem from="1446979600988" duration="2502000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -1008,11 +1014,17 @@
       <option name="project" value="LOCAL" />
       <updated>1446979151791</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Checking all">
+      <created>1446979777880</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1446979777880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59104000" />
+    <option name="totallyTimeSpent" value="61481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
@@ -1020,13 +1032,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43097642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.506135" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.479798" sideWeight="0.49386504" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.49386504" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.49539876" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29907975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1035,14 +1049,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4040404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4040404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43097642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.49539876" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1089,7 +1101,8 @@
     <MESSAGE value="Added Android server" />
     <MESSAGE value="Changed Spark code to establish connection with iOS and Spark" />
     <MESSAGE value="Removed part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed part" />
+    <MESSAGE value="Checking all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,7 +1151,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,7 +1206,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,7 +1311,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,7 +1366,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,7 +1476,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1494,18 +1532,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36298934">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="2.9402175">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
           <folding />
         </state>
       </provider>

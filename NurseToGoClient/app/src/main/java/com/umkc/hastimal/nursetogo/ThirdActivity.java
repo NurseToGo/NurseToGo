@@ -81,7 +81,7 @@ public class ThirdActivity extends Activity {
             DataInputStream dataInputStream = null;
 
             try {
-                socket = new Socket("10.142.0.193", 4321);//10.142.0.193
+                socket = new Socket("10.142.0.157", 4321);//10.142.0.193
                 dataOutputStream = new DataOutputStream(socket.getOutputStream());
                 dataInputStream = new DataInputStream(socket.getInputStream());
                 dataOutputStream.writeUTF(textOut.getText().toString());
