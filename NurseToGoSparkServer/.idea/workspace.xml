@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="Changed Spark code to establish connection with iOS and Spark">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
+    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -969,7 +968,7 @@
       <workItem from="1446862920464" duration="359000" />
       <workItem from="1446863308536" duration="742000" />
       <workItem from="1446864156009" duration="24696000" />
-      <workItem from="1446978415582" duration="699000" />
+      <workItem from="1446978415582" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -1001,11 +1000,17 @@
       <option name="project" value="LOCAL" />
       <updated>1446979051816</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Removed part">
+      <created>1446979151791</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1446979151791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58794000" />
+    <option name="totallyTimeSpent" value="58844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
@@ -1081,7 +1086,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Android server" />
     <MESSAGE value="Changed Spark code to establish connection with iOS and Spark" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Spark code to establish connection with iOS and Spark" />
+    <MESSAGE value="Removed part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed part" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
