@@ -85,7 +85,7 @@
       <file leaf-file-name="ServerTestingAndroid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5081522">
+            <state vertical-scroll-proportion="0.5054054">
               <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
@@ -999,7 +999,7 @@
       <workItem from="1446862766587" duration="137000" />
       <workItem from="1446862920464" duration="359000" />
       <workItem from="1446863308536" duration="742000" />
-      <workItem from="1446864156009" duration="25655000" />
+      <workItem from="1446864156009" duration="25814000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -1019,11 +1019,23 @@
       <option name="project" value="LOCAL" />
       <updated>1446975743863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed AndroidServer code">
+      <created>1446977293127</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1446977293127</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Data of Tweets">
+      <created>1446977405706</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446977405706</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59054000" />
+    <option name="totallyTimeSpent" value="59213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
@@ -1038,8 +1050,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5030675" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.4969325" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.4969325" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29907975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1100,7 +1112,8 @@
     <MESSAGE value="Added Android server" />
     <MESSAGE value="Changed Spark code to establish connection with iOS and Spark" />
     <MESSAGE value="Changed AndroidServer code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed AndroidServer code" />
+    <MESSAGE value="Data of Tweets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data of Tweets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1545,7 +1558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5081522">
+        <state vertical-scroll-proportion="0.5054054">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding />
         </state>
