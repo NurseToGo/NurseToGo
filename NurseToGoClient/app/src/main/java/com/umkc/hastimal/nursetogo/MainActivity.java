@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 //Main activity
+//adding for Spark
 
 public class MainActivity extends Activity {
 
