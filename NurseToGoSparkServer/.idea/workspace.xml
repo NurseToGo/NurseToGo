@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
+    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="Changed Spark code to establish connection with iOS and Spark">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="NurseToGoMain.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3024911">
-              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.48398575">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -173,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/NutritionData/age-calorie.dat" />
         <option value="$PROJECT_DIR$/data/age-calorie.dat" />
         <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/Recommendation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/Spark/Sentimental/ServerTestingAndroid.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala" />
       </list>
     </option>
   </component>
@@ -968,7 +969,7 @@
       <workItem from="1446862920464" duration="359000" />
       <workItem from="1446863308536" duration="742000" />
       <workItem from="1446864156009" duration="24696000" />
-      <workItem from="1446978415582" duration="623000" />
+      <workItem from="1446978415582" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -994,15 +995,21 @@
       <option name="project" value="LOCAL" />
       <updated>1446978966636</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed Spark code to establish connection with iOS and Spark">
+      <created>1446979051816</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446979051816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58718000" />
+    <option name="totallyTimeSpent" value="58794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1013,7 +1020,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.506135" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.479798" sideWeight="0.49386504" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.479798" sideWeight="0.49386504" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.49539876" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1489,8 +1496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Spark/Recommendation/NurseToGoMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3024911">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.48398575">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>

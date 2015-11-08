@@ -25,7 +25,7 @@ object NurseToGoMain {
 //    val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("Food is delicious")
 //    System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
 //    /*--------------------------*/
-
+//Removed part
     var age:String = ""
     val ip=InetAddress.getByName("192.168.1.16").getHostName
     val lines=ssc.socketTextStream(ip,1234)
