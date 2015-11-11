@@ -24,7 +24,7 @@ import scala.collection.mutable
 object IPApp {
   val featureVectorsCluster = new mutable.MutableList[String]
 
-  val IMAGE_CATEGORIES = List("accordion", "airplanes", "ant")
+  val IMAGE_CATEGORIES = List("cough", "headache", "legpain")
 
   /**
    *
