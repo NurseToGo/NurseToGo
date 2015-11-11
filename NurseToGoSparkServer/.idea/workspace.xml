@@ -1,74 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\accordion\image_0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\accordion\image_0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\accordion\image_0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\accordion\image_0004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\accordion\image_0005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\airplanes\image_0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\airplanes\image_0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\airplanes\image_0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\airplanes\image_0004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\airplanes\image_0005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\ant\image_0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\ant\image_0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\ant\image_0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\ant\image_0004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\files\Train\ant\image_0005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\._common_metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\._metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00001.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00002.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00003.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00004.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\_common_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\part-r-00001.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\part-r-00002.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\part-r-00003.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\data\part-r-00004.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\metadata\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\metadata\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\metadata\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\clusters\metadata\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\.part-00002.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\.part-00003.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\part-00001" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\part-00002" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\features\part-00003" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\.part-00002.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\.part-00003.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\part-00001" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\part-00002" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\histograms\part-00003" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\._common_metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\._metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\.part-r-00001.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\_common_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\data\part-r-00001.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\metadata\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\metadata\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\metadata\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hastimal\Documents\GitHub\NurseToGoServerIOS\NurseToGo\NurseToGoSparkServer\modelFace\nbmodel\metadata\part-00000" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newLabel.jpg" afterPath="$PROJECT_DIR$/newLabel.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala" />
+    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="Image processing for project">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0010.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -138,7 +105,7 @@
       <file leaf-file-name="IPApp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17302799">
+            <state vertical-scroll-proportion="0.24199288">
               <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
               <folding>
                 <element signature="e#123#166#0" expanded="true" />
@@ -833,7 +800,7 @@
       <workItem from="1446864156009" duration="24696000" />
       <workItem from="1446978415582" duration="884000" />
       <workItem from="1446979600988" duration="2991000" />
-      <workItem from="1447197532640" duration="6140000" />
+      <workItem from="1447197532640" duration="6233000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -907,11 +874,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447204428646</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Image processing for project">
+      <created>1447207586830</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1447207586830</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68110000" />
+    <option name="totallyTimeSpent" value="68203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1280" height="726" extended-state="0" />
@@ -926,11 +899,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.506135" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.49386504" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2912458" sideWeight="0.49539876" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.479798" sideWeight="0.49386504" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44276094" sideWeight="0.49539876" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29836065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29836065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1422,7 +1395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17302799">
+        <state vertical-scroll-proportion="0.24199288">
           <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
           <folding>
             <element signature="e#123#166#0" expanded="true" />
