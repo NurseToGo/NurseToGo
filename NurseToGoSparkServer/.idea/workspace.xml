@@ -866,7 +866,7 @@
       <workItem from="1446864156009" duration="24696000" />
       <workItem from="1446978415582" duration="884000" />
       <workItem from="1446979600988" duration="2991000" />
-      <workItem from="1447197532640" duration="7024000" />
+      <workItem from="1447197532640" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -968,7 +968,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68994000" />
+    <option name="totallyTimeSpent" value="69588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1280" height="726" extended-state="0" />
