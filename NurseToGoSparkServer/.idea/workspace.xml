@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="Image processing for project">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0004.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0004.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0004.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0006.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0006.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0006.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0007.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0007.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0007.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0008.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0008.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0008.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0009.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0009.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0009.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/cough/image_0010.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/headache/image_0010.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Train/legpain/image_0010.jpg" />
+    <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -800,7 +766,7 @@
       <workItem from="1446864156009" duration="24696000" />
       <workItem from="1446978415582" duration="884000" />
       <workItem from="1446979600988" duration="2991000" />
-      <workItem from="1447197532640" duration="6233000" />
+      <workItem from="1447197532640" duration="6277000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -880,11 +846,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447207586830</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Image processing for project added imaged related to symptoms">
+      <created>1447207687003</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1447207687003</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68203000" />
+    <option name="totallyTimeSpent" value="68247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1280" height="726" extended-state="0" />
@@ -963,7 +935,8 @@
     <MESSAGE value="Removed part" />
     <MESSAGE value="Checking all" />
     <MESSAGE value="Image processing for project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image processing for project" />
+    <MESSAGE value="Image processing for project added imaged related to symptoms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image processing for project added imaged related to symptoms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
