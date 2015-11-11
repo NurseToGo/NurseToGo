@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPSettings.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/ImageUtils.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/ModelEvaluation.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_artoolkitplus_2_3_1_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_ffmpeg_2_6_1_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_flandmark_1_07_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_flycapture_2_7_3_19_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_libdc1394_2_2_3_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_libfreenect_0_5_2_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_opencv_2_4_11_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_opencv_2_4_11_0_11_windows_x86_64_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacpp_presets_videoinput_0_200_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_bytedeco_javacv_0_11_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/Utils.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" afterPath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Kafka/Spark/Sentimental/Kafka/Spark/Sentimental/TwitterSentimentMain$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Kafka/Spark/Sentimental/Kafka/Spark/Sentimental/TwitterSentimentMain$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SparkNurseToGo.iws" />
@@ -921,7 +901,7 @@
       <workItem from="1446864156009" duration="24696000" />
       <workItem from="1446978415582" duration="884000" />
       <workItem from="1446979600988" duration="2991000" />
-      <workItem from="1447197532640" duration="3040000" />
+      <workItem from="1447197532640" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="Added Android server">
       <created>1446864529553</created>
@@ -965,15 +945,21 @@
       <option name="project" value="LOCAL" />
       <updated>1446979777880</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Image processing for project">
+      <created>1447201030622</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1447201030622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65010000" />
+    <option name="totallyTimeSpent" value="65260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1280" height="726" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1047,7 +1033,8 @@
     <MESSAGE value="Changed Spark code to establish connection with iOS and Spark" />
     <MESSAGE value="Removed part" />
     <MESSAGE value="Checking all" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checking all" />
+    <MESSAGE value="Image processing for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image processing for project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
