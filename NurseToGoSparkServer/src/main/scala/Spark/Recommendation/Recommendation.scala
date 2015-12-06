@@ -198,7 +198,7 @@ object Recommendation {
     //genderdata.foreach(println)
     val calorieNeeded = genderdata.mkString("").replaceAll(" "+input+"-"+inputGender+"-","")
     System.out.println("Calories needed: "+calorieNeeded)
-    //System.out.println("ageData "+ageData+" genderData "+genderdata+" Calorie needed "+calorieNeeded)
+    System.out.println("ageData "+ageData+" genderData "+genderdata+" Calorie needed "+calorieNeeded)
     val calories = calorieNeeded.toInt
 
     if(calories >= 1400 && calories < 2000 )
