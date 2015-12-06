@@ -31,6 +31,7 @@ public class ServerTestingAndroid {
                 dataOutputStream = new DataOutputStream(socket.getOutputStream());
                 System.out.println("ip: " + socket.getInetAddress());
                 System.out.println("message: " + dataInputStream.readUTF());
+
                 //dataOutputStream.writeUTF("Hello!..I am listening..");
                 // else{
                 //     dataOutputStream.writeUTF(dataInputStream.readUTF());
