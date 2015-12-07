@@ -5,6 +5,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import Spark.Recommendation.iOSConnector;
 
 /**
  * Created by hastimal on 11/4/2015.
@@ -17,8 +18,8 @@ public class ServerTestingAndroid {
         DataOutputStream dataOutputStream = null;
 
         try {
-            serverSocket = new ServerSocket(4321);
-            System.out.println("Listening :4321");
+            serverSocket = new ServerSocket(4094);
+            System.out.println("Listening :4094");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -31,6 +32,7 @@ public class ServerTestingAndroid {
                 dataOutputStream = new DataOutputStream(socket.getOutputStream());
                 System.out.println("ip: " + socket.getInetAddress());
                 System.out.println("message: " + dataInputStream.readUTF());
+                //iOSConnector.sendCommandToRobot(dataInputStream.readUTF());
 
                 //dataOutputStream.writeUTF("Hello!..I am listening..");
                 // else{
