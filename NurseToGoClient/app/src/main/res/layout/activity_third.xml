@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="com.umkc.hastimal.nursetogo.ThirdActivity">
+    tools:context="com.umkc.hastimal.nursetogo.ThirdActivity"
+    android:weightSum="1">
 
 
     <TextView
@@ -76,4 +77,10 @@
         android:layout_toEndOf="@+id/btnCapture" />
 
 </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/result"
+        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>
