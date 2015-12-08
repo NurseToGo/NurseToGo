@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     ActivityClassification
+Instances:    2489
+Attributes:   4
+              acc_z
+              acc_y
+              acc_x
+              activity
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2398               96.3439 %
+Incorrectly Classified Instances        91                3.6561 %
+Kappa statistic                          0.9327
+Mean absolute error                      0.0185
+Root mean squared error                  0.1351
+Relative absolute error                  6.8409 %
+Root relative squared error             36.7301 %
+Total Number of Instances             2489     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.974     0.004      0.966     0.974     0.97       0.994    bending
+                 0.93      0.027      0.908     0.93      0.919      0.978    legslide
+                 0.974     0.029      0.983     0.974     0.979      0.986    resting
+                 0.951     0.001      0.97      0.951     0.961      0.991    lyingkicks
+Weighted Avg.    0.963     0.025      0.964     0.963     0.964      0.985
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+  258    7    0    0 |    a = bending
+    9  515   27    3 |    b = legslide
+    0   40 1527    0 |    c = resting
+    0    5    0   98 |    d = lyingkicks
+

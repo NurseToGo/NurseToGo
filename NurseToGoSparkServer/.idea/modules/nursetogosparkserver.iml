@@ -246,5 +246,8 @@
     <orderEntry type="library" name="SBT: org.bytedeco.javacpp-presets:opencv:2.4.11-0.11:jar" level="project" />
     <orderEntry type="library" name="SBT: org.bytedeco.javacpp-presets:opencv:2.4.11-0.11:windows-x86_64:jar" level="project" />
     <orderEntry type="library" name="SBT: org.bytedeco.javacpp-presets:videoinput:0.200-0.11:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.squirrel-sql.thirdparty-non-maven:java-cup:0.11a:jar" level="project" />
+    <orderEntry type="library" name="SBT: nz.ac.waikato.cms.weka:weka-dev:3.7.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.pentaho.pentaho-commons:pentaho-package-manager:1.0.0:jar" level="project" />
   </component>
 </module>

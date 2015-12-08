@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     ActivityClassification
+Instances:    2489
+Attributes:   4
+              acc_z
+              acc_y
+              acc_x
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                      Class
+Attribute      not_legslide     legslide
+                     (0.78)       (0.22)
+=========================================
+acc_z
+  mean                3.1695        1.227
+  std. dev.           1.6509       3.5852
+  weight sum            1935          554
+  precision           0.1076       0.1076
+
+acc_y
+  mean               -0.5732      -0.1912
+  std. dev.           1.6696       2.9271
+  weight sum            1935          554
+  precision           0.0768       0.0768
+
+acc_x
+  mean               -0.1331      -1.0404
+  std. dev.           1.0225       1.8118
+  weight sum            1935          554
+  precision           0.0983       0.0983
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1930               77.5412 %
+Incorrectly Classified Instances       559               22.4588 %
+Kappa statistic                          0.3809
+Mean absolute error                      0.2255
+Root mean squared error                  0.3985
+Relative absolute error                 65.1417 %
+Root relative squared error             95.8075 %
+Total Number of Instances             2489     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.836     0.437      0.87      0.836     0.853      0.876    not_legslide
+                 0.563     0.164      0.496     0.563     0.527      0.876    legslide
+Weighted Avg.    0.775     0.376      0.787     0.775     0.78       0.876
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1618  317 |    a = not_legslide
+  242  312 |    b = legslide
+
