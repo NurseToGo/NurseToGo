@@ -2,134 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c2c5a1-a3f5-4de0-a19e-2212094bec76" name="Default" comment="Image processing for project added imaged related to symptoms">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/activity/classification/ActivityApp.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/umkc/activity/classification/ActivityClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/activity/classification/IPSettings.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/umkc/activity/classification/J48Classifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/models/J48Model.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/umkc/activity/classification/KNNClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/models/KNNModel.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/activity/classification/ModelEvaluation.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/umkc/activity/classification/NBClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/models/NBModel.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/umkc/activity/classification/RFClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/models/RFModel.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_sf_squirrel_sql_thirdparty_non_maven_java_cup_0_11a_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__nz_ac_waikato_cms_weka_weka_dev_3_7_6_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_pentaho_pentaho_commons_pentaho_package_manager_1_0_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/train/multi/activity_multi_class_traning.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/train/binary/activity_two_class_traning.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/binary_class_decisionTree.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/binary_class_knn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/binary_class_naivebayes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/binary_class_randomForest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/multi_class_decisionTree.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/multi_class_knn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/multi_class_naivebayes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/testing/multi_class_randomForest.txt" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\._common_metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\._metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00001.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00002.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00003.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\.part-r-00004.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\_common_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\part-r-00001.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\part-r-00002.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\part-r-00003.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\data\part-r-00004.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\metadata\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\metadata\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\metadata\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\clusters\metadata\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\.part-00002.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\.part-00003.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\part-00001" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\part-00002" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\features\part-00003" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\.part-00001.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\.part-00002.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\.part-00003.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\part-00001" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\part-00002" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\histograms\part-00003" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\._common_metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\._metadata.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\.part-r-00001.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\_common_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\_metadata" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\data\part-r-00001.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\metadata\._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\metadata\.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\metadata\_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\modelFace\nbmodel\metadata\part-00000" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\project\target\config-classes\$9b152cd6d379c79ca9c1$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\project\target\config-classes\$9b152cd6d379c79ca9c1$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\project\target\config-classes\$9b152cd6d379c79ca9c1.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\project\target\config-classes\$9b152cd6d379c79ca9c1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$17fecbd9ecc17dcbd10a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$17fecbd9ecc17dcbd10a$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$17fecbd9ecc17dcbd10a.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$17fecbd9ecc17dcbd10a.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$2c1999540319d858b975$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$2c1999540319d858b975$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$2c1999540319d858b975.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$2c1999540319d858b975.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$3d931b2ca6a2f62c6e94$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$3d931b2ca6a2f62c6e94$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$3d931b2ca6a2f62c6e94$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$3d931b2ca6a2f62c6e94.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$3d931b2ca6a2f62c6e94.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5bf07327b0341d5af543$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5bf07327b0341d5af543$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5bf07327b0341d5af543.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5bf07327b0341d5af543.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5c971c5d4aa1549859fe$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5c971c5d4aa1549859fe$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5c971c5d4aa1549859fe.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$5c971c5d4aa1549859fe.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$66381fe995b353b8150d$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$66381fe995b353b8150d$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$66381fe995b353b8150d.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$66381fe995b353b8150d.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$799a1fc1feb59264b005$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$799a1fc1feb59264b005$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$799a1fc1feb59264b005.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$799a1fc1feb59264b005.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$aa0e393c837e54c1e819$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$aa0e393c837e54c1e819$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$aa0e393c837e54c1e819.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$aa0e393c837e54c1e819.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$c564b520b5fc4ec84d8c$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$c564b520b5fc4ec84d8c$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$c564b520b5fc4ec84d8c.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$c564b520b5fc4ec84d8c.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e2d5ecd9eff2bb496135$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e2d5ecd9eff2bb496135$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e2d5ecd9eff2bb496135.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e2d5ecd9eff2bb496135.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e55d4ff19db160655e59$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e55d4ff19db160655e59$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e55d4ff19db160655e59.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e55d4ff19db160655e59.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e5cec1abcc585efacc84$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e5cec1abcc585efacc84$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e5cec1abcc585efacc84.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mali\Source\Repos\NurseToGo2\NurseToGoSparkServer\project\target\config-classes\$e5cec1abcc585efacc84.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/edu/umkc/image/classification/IPApp$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/edu/umkc/image/classification/IPApp$$anonfun$11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/edu/umkc/image/classification/IPApp$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/edu/umkc/image/classification/IPApp$$anonfun$12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/edu/umkc/image/classification/IPApp$$anonfun$main$1$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/edu/umkc/image/classification/IPApp$$anonfun$main$1$$anonfun$apply$4.class" />
@@ -141,14 +13,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/edu/umkc/image/classification/IPApp.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/NurseToGoClient.iml" afterPath="$PROJECT_DIR$/../NurseToGoClient/NurseToGoClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_datacommons_2_11_2_4_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_datacommons_2_11_2_4_2_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_functional_2_11_2_4_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_functional_2_11_2_4_2_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_iteratees_2_11_2_4_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_iteratees_2_11_2_4_2_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_json_2_11_2_4_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_json_2_11_2_4_2_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/app/app.iml" afterPath="$PROJECT_DIR$/../NurseToGoClient/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../NurseToGoClient/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-nursetogosparkserver-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-nursetogosparkserver-build-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-nursetogosparkserver-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-nursetogosparkserver-build-compile.xml" />
@@ -180,10 +46,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../NurseToGoClient/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/.idea/misc.xml" afterPath="$PROJECT_DIR$/../NurseToGoClient/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NurseToGoClient/.idea/modules.xml" afterPath="$PROJECT_DIR$/../NurseToGoClient/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" afterPath="$PROJECT_DIR$/.idea/modules/nursetogosparkserver.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
@@ -1307,7 +1170,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447207770282</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ML">
+      <created>1449553750653</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1449553750653</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1391,7 +1260,8 @@
     <MESSAGE value="Checking all" />
     <MESSAGE value="Image processing for project" />
     <MESSAGE value="Image processing for project added imaged related to symptoms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image processing for project added imaged related to symptoms" />
+    <MESSAGE value="ML" />
+    <option name="LAST_COMMIT_MESSAGE" value="ML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
