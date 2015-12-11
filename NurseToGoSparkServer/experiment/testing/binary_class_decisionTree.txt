@@ -1,0 +1,84 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ActivityClassification
+Instances:    2489
+Attributes:   4
+              acc_z
+              acc_y
+              acc_x
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+acc_x <= 0.06
+|   acc_z <= 2.19
+|   |   acc_z <= -2.12: legslide (77.0)
+|   |   acc_z > -2.12
+|   |   |   acc_z <= 1.81: not_legslide (314.0/8.0)
+|   |   |   acc_z > 1.81
+|   |   |   |   acc_y <= -2.69: legslide (3.0)
+|   |   |   |   acc_y > -2.69: not_legslide (18.0/2.0)
+|   acc_z > 2.19
+|   |   acc_y <= -1.56: legslide (150.0/10.0)
+|   |   acc_y > -1.56
+|   |   |   acc_z <= 3
+|   |   |   |   acc_y <= 1.06: not_legslide (16.0/1.0)
+|   |   |   |   acc_y > 1.06: legslide (10.0)
+|   |   |   acc_z > 3
+|   |   |   |   acc_x <= -1: legslide (180.0/20.0)
+|   |   |   |   acc_x > -1
+|   |   |   |   |   acc_y <= -0.69: not_legslide (5.0)
+|   |   |   |   |   acc_y > -0.69: legslide (48.0/16.0)
+acc_x > 0.06
+|   acc_z <= -2.69: legslide (95.0)
+|   acc_z > -2.69
+|   |   acc_y <= -0.19
+|   |   |   acc_z <= 1.5: not_legslide (33.0/1.0)
+|   |   |   acc_z > 1.5
+|   |   |   |   acc_x <= 0.56: legslide (13.0)
+|   |   |   |   acc_x > 0.56
+|   |   |   |   |   acc_y <= -3.56
+|   |   |   |   |   |   acc_z <= 3.75: legslide (5.0)
+|   |   |   |   |   |   acc_z > 3.75
+|   |   |   |   |   |   |   acc_z <= 4.19: not_legslide (2.0)
+|   |   |   |   |   |   |   acc_z > 4.19: legslide (4.0/1.0)
+|   |   |   |   |   acc_y > -3.56: not_legslide (4.0)
+|   |   acc_y > -0.19: not_legslide (1512.0/4.0)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	35
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2392               96.1029 %
+Incorrectly Classified Instances        97                3.8971 %
+Kappa statistic                          0.8886
+Mean absolute error                      0.0542
+Root mean squared error                  0.1818
+Relative absolute error                 15.6484 %
+Root relative squared error             43.707  %
+Total Number of Instances             2489     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.971     0.072      0.979     0.971     0.975      0.973    not_legslide
+                 0.928     0.029      0.9       0.928     0.914      0.973    legslide
+Weighted Avg.    0.961     0.063      0.962     0.961     0.961      0.973
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1878   57 |    a = not_legslide
+   40  514 |    b = legslide
+

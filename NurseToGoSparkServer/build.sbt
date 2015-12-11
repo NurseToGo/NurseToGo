@@ -36,7 +36,9 @@ libraryDependencies ++= Seq(
   "org.bytedeco" % "javacpp" % "0.11",
   "org.bytedeco" % "javacv" % "0.11",
   "org.bytedeco.javacpp-presets" % "opencv" % "2.4.11-0.11",
-  "org.bytedeco.javacpp-presets" % "opencv" % "2.4.11-0.11" classifier "windows-x86_64"
+  "org.bytedeco.javacpp-presets" % "opencv" % "2.4.11-0.11" classifier "windows-x86_64",
+  "nz.ac.waikato.cms.weka" % "weka-dev" % "3.7.6"
+
 )
 
 resolvers ++= Seq(

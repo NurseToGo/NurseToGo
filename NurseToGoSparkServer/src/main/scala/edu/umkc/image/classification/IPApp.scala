@@ -225,17 +225,18 @@ object IPApp {
       .setAppName(s"IPApp")
       .setMaster("local[*]")
       .set("spark.executor.memory", "2g")
-    System.setProperty("hadoop.home.dir", "F:\\winutils")
+    //System.setProperty("hadoop.home.dir", "F:\\winutils")
+    System.setProperty("hadoop.home.dir", "C:\\hadoop\\winutils")
     val ssc = new StreamingContext(conf, Seconds(2))
     val sc = ssc.sparkContext
 
-    val images = sc.wholeTextFiles(s"${IPSettings.INPUT_DIR}/*/*.jpg").cache()
+    //val images = sc.wholeTextFiles(s"${IPSettings.INPUT_DIR}/*/*.jpg").cache()
 
     /**
      * Extracts Key Descriptors from the Training set
      * Saves it to a text file
      */
-    extractDescriptors(sc, images)
+    //extractDescriptors(sc, images)
 
     /**
      * Reads the Key descriptors and forms a 'K' topics
@@ -247,7 +248,7 @@ object IPApp {
      * Saves the centers as a text file
      */
 
-    kMeansCluster(sc)
+    //kMeansCluster(sc)
 
     /**
      * Forms a labeled Histogram using the Training set
@@ -255,7 +256,7 @@ object IPApp {
      *
      * This shall be used as a input to Naive Bayes to create a model
      */
-    createHistogram(sc, images)
+    //createHistogram(sc, images)
 
     /**
      * From the labeled Histograms a Naive Bayes Model is created

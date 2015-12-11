@@ -1,0 +1,92 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ActivityClassification
+Instances:    2489
+Attributes:   4
+              acc_z
+              acc_y
+              acc_x
+              activity
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+acc_z <= 3.75
+|   acc_y <= -2
+|   |   acc_z <= 0
+|   |   |   acc_z <= -3: legslide (15.0)
+|   |   |   acc_z > -3: bending (271.0/8.0)
+|   |   acc_z > 0: legslide (82.0/3.0)
+|   acc_y > -2
+|   |   acc_z <= -1.69: legslide (157.0)
+|   |   acc_z > -1.69
+|   |   |   acc_z <= 2.12
+|   |   |   |   acc_y <= 2.5
+|   |   |   |   |   acc_z <= 0.12: bending (3.0/1.0)
+|   |   |   |   |   acc_z > 0.12: lyingkicks (84.0)
+|   |   |   |   acc_y > 2.5: resting (3.0/1.0)
+|   |   |   acc_z > 2.12
+|   |   |   |   acc_z <= 3
+|   |   |   |   |   acc_y <= 1.25
+|   |   |   |   |   |   acc_y <= -0.75: legslide (5.0)
+|   |   |   |   |   |   acc_y > -0.75
+|   |   |   |   |   |   |   acc_x <= -3.19: lyingkicks (7.0/1.0)
+|   |   |   |   |   |   |   acc_x > -3.19
+|   |   |   |   |   |   |   |   acc_z <= 2.31: lyingkicks (2.0)
+|   |   |   |   |   |   |   |   acc_z > 2.31: resting (9.0)
+|   |   |   |   |   acc_y > 1.25: legslide (10.0)
+|   |   |   |   acc_z > 3: legslide (121.0/13.0)
+acc_z > 3.75
+|   acc_x <= 0.06: legslide (191.0/39.0)
+|   acc_x > 0.06
+|   |   acc_y <= -0.06
+|   |   |   acc_y <= -0.19
+|   |   |   |   acc_x <= 0.56: legslide (12.0)
+|   |   |   |   acc_x > 0.56
+|   |   |   |   |   acc_z <= 4.19: resting (4.0)
+|   |   |   |   |   acc_z > 4.19
+|   |   |   |   |   |   acc_y <= -3.88: legslide (3.0)
+|   |   |   |   |   |   acc_y > -3.88: resting (2.0)
+|   |   |   acc_y > -0.19: resting (87.0)
+|   |   acc_y > -0.06: resting (1421.0/3.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	39
+
+
+Time taken to build model: 0.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2393               96.143  %
+Incorrectly Classified Instances        96                3.857  %
+Kappa statistic                          0.9294
+Mean absolute error                      0.0287
+Root mean squared error                  0.131 
+Relative absolute error                 10.5902 %
+Root relative squared error             35.6163 %
+Total Number of Instances             2489     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.989     0.004      0.963     0.989     0.976      0.995    bending
+                 0.951     0.034      0.89      0.951     0.92       0.964    legslide
+                 0.967     0.018      0.989     0.967     0.978      0.98     resting
+                 0.854     0.002      0.957     0.854     0.903      0.975    lyingkicks
+Weighted Avg.    0.961     0.02       0.963     0.961     0.962      0.978
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+  262    2    0    1 |    a = bending
+   10  527   15    2 |    b = legslide
+    0   50 1516    1 |    c = resting
+    0   13    2   88 |    d = lyingkicks
+

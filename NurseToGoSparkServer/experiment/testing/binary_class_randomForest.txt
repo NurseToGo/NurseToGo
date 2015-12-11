@@ -1,0 +1,46 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     ActivityClassification
+Instances:    2489
+Attributes:   4
+              acc_z
+              acc_y
+              acc_x
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 2 random features.
+Out of bag error: 0.0366
+
+
+
+Time taken to build model: 0.33 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2408               96.7457 %
+Incorrectly Classified Instances        81                3.2543 %
+Kappa statistic                          0.9071
+Mean absolute error                      0.0463
+Root mean squared error                  0.1552
+Relative absolute error                 13.3755 %
+Root relative squared error             37.2977 %
+Total Number of Instances             2489     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.974     0.056      0.984     0.974     0.979      0.991    not_legslide
+                 0.944     0.026      0.913     0.944     0.928      0.991    legslide
+Weighted Avg.    0.967     0.049      0.968     0.967     0.968      0.991
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1885   50 |    a = not_legslide
+   31  523 |    b = legslide
+

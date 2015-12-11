@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     ActivityClassification
+Instances:    2489
+Attributes:   4
+              acc_z
+              acc_y
+              acc_x
+              activity
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                    Class
+Attribute         bending   legslide    resting lyingkicks
+                   (0.11)     (0.22)     (0.63)     (0.04)
+===========================================================
+acc_z
+  mean             -0.6998      1.227     3.9214     1.6846
+  std. dev.         0.3419     3.5852     0.1996     0.9846
+  weight sum           265        554       1567        103
+  precision         0.1076     0.1076     0.1076     0.1076
+
+acc_y
+  mean             -4.4336    -0.1912    -0.0029     0.6825
+  std. dev.         1.1072     2.9271     0.5066      0.665
+  weight sum           265        554       1567        103
+  precision         0.0768     0.0768     0.0768     0.0768
+
+acc_x
+  mean             -0.4808    -1.0404     0.1518     -3.572
+  std. dev.         0.6873     1.8118     0.3208      1.868
+  weight sum           265        554       1567        103
+  precision         0.0983     0.0983     0.0983     0.0983
+
+
+
+Time taken to build model: 0.12 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2363               94.9377 %
+Incorrectly Classified Instances       126                5.0623 %
+Kappa statistic                          0.9075
+Mean absolute error                      0.0301
+Root mean squared error                  0.1458
+Relative absolute error                 11.1201 %
+Root relative squared error             39.654  %
+Total Number of Instances             2489     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.981     0.004      0.967     0.981     0.974      0.999    bending
+                 0.928     0.04       0.868     0.928     0.897      0.982    legslide
+                 0.965     0.017      0.99      0.965     0.977      0.994    resting
+                 0.748     0.01       0.77      0.748     0.759      0.986    lyingkicks
+Weighted Avg.    0.949     0.021      0.951     0.949     0.95       0.992
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+  260    5    0    0 |    a = bending
+    9  514   16   15 |    b = legslide
+    0   47 1512    8 |    c = resting
+    0   26    0   77 |    d = lyingkicks
+
