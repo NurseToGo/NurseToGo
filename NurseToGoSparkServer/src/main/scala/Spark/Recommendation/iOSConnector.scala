@@ -21,7 +21,7 @@ object iOSConnector {
     try {
 
 
-      lazy val address: Array[Byte] = Array(10.toByte, 205.toByte, 0.toByte, 68.toByte)  //iOS server
+      lazy val address: Array[Byte] = Array(10.toByte, 205.toByte, 1.toByte, 44.toByte)  //iOS server
       val ia = InetAddress.getByAddress(address)
       val socket = new Socket(ia, 1234)
       val out = new PrintStream(socket.getOutputStream)

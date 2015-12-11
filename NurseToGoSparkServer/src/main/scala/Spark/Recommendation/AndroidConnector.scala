@@ -19,8 +19,6 @@ object AndroidConnector {
     // Simple server
 
     try {
-
-
       lazy val address: Array[Byte] = Array(10.toByte, 205.toByte, 0.toByte, 68.toByte)  //iOS server
       val ia = InetAddress.getByAddress(address)
       val socket = new Socket(ia, 4094)
@@ -28,11 +26,11 @@ object AndroidConnector {
       val in = new DataInputStream(socket.getInputStream())
 
      print(s"I am getting ${in.toString}")
-      //in..flush()
+      //in.flush()
 
-      //out.close()
-     // in.close()
-      //socket.close()
+     // out.close()
+      in.close()
+      socket.close()
     }
     catch {
       case e: IOException =>

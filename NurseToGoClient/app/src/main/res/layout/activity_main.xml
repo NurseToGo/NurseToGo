@@ -16,25 +16,17 @@
         android:id="@+id/address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="10.205.0.68"
+        android:text="10.205.1.44"
         android:hint="IP Address" />
-    <EditText
-        android:id="@+id/port"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Port Number"
-        android:layout_below="@+id/address"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/connect"
         android:layout_width="137dp"
         android:layout_height="wrap_content"
-        android:text="Connect..."
-        android:layout_below="@+id/port"
+        android:text="Robot.."
         android:layout_toRightOf="@+id/response"
-        android:layout_toEndOf="@+id/response" />
+        android:layout_toEndOf="@+id/response"
+        android:layout_below="@+id/address" />
 
     <Button
         android:id="@+id/clear"
@@ -54,13 +46,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Spark"
-        android:id="@+id/buttonToSpark"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/port"
-        android:layout_alignEnd="@+id/port" />
+        android:text="Spark.."
+        android:id="@+id/connect2"
+        android:layout_toRightOf="@+id/response"
+        android:layout_below="@+id/response"
+        android:layout_alignRight="@+id/clear"
+        android:layout_alignEnd="@+id/clear" />
 
 
 </RelativeLayout>

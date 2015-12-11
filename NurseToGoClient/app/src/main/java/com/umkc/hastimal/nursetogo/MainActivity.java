@@ -43,13 +43,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         context = this;
         editTextAddress = (EditText)findViewById(R.id.address);
-        editTextPort = (EditText)findViewById(R.id.port);
+        //editTextPort = (EditText)findViewById(R.id.port);
         buttonConnect = (Button)findViewById(R.id.connect);
         buttonClear = (Button)findViewById(R.id.clear);
         textResponse = (TextView)findViewById(R.id.response);
         //for Spark initialization
         //For direct local
-        buttonToSpark = (Button)findViewById(R.id.buttonToSpark);
+        buttonToSpark = (Button)findViewById(R.id.connect2);
 
         buttonConnect.setOnClickListener(buttonConnectOnClickListener);
         buttonToSpark.setOnClickListener(buttonToSparkOnClickListener);

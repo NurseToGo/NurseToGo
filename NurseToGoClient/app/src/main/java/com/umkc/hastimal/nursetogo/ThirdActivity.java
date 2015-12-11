@@ -85,7 +85,7 @@ public class ThirdActivity extends Activity {
             DataInputStream dataInputStream = null;
 
             try {
-                socket = new Socket("10.205.0.67", 4094);//10.142.0.193  Spark IP
+                socket = new Socket("10.205.2.5", 1234);//10.142.0.193  Spark IP
                 dataOutputStream = new DataOutputStream(socket.getOutputStream());
                 dataInputStream = new DataInputStream(socket.getInputStream());
                 dataOutputStream.writeUTF(textOut.getText().toString());

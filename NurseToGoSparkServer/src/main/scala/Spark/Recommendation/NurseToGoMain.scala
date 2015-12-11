@@ -21,14 +21,14 @@ object NurseToGoMain {
 
     /*----to be removed----*/
 //    NutritionCalculation.findCalorie(sc,"vegetable burger")
-  Recommendation.foodRecommend(sc,"35","MALE")
+  //Recommendation.foodRecommend(sc,"35","MALE")
 //    val sentimentAnalyzer: SentimentAnalyzer = new SentimentAnalyzer
 //    val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("Food is delicious")
 //    System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
 //    /*--------------------------*/
 //Removed part
     var age:String = ""
-    val ip=InetAddress.getByName("10.161.0.34").getHostName//  //iOS address
+    val ip=InetAddress.getByName("10.205.1.44").getHostName//  //iOS address
     val lines=ssc.socketTextStream(ip,1234)
 
     val command= lines.map(x=>{
@@ -37,7 +37,7 @@ object NurseToGoMain {
     })
     command.foreachRDD(
       rdd=> {
-        AndroidConnector.recieveCommandForRobot("hahahha")
+       // AndroidConnector.recieveCommandForRobot("hahahha")
         System.out.println("I am in command rdd")
         if (rdd.collect().mkString("").contains("RECOMMEND:::AGE/")) {  // if (rdd.collect().mkString("").contains("RECOMMEND:::AGE/")) {
           System.out.println("I am in command rdd inside if")
@@ -58,7 +58,8 @@ object NurseToGoMain {
           val sentimentAnalyzer: SentimentAnalyzer = new SentimentAnalyzer
           val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("click here for your Sachin Tendulkar personalized digital autograph.")
           System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
-          iOSConnector.sendCommandToRobot("sentiment:::"+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
+         // iOSConnector.sendCommandToRobot("sentiment:::"+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
+          iOSConnector.sendCommandToRobot("sentiment is positive");//+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
         }
        // TwitterSentimentMain.main(args: Array[String])
 
