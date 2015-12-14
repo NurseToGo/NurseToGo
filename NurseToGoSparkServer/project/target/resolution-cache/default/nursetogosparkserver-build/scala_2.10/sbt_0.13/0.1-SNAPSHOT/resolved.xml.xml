@@ -4,7 +4,7 @@
 		module="nursetogosparkserver-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151125185940"
+		publication="20151211100851"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

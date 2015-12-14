@@ -13,8 +13,8 @@ object ActivityApp {
       .setAppName(s"IPApp")
       .setMaster("local[*]")
       .set("spark.executor.memory", "2g")
-    //System.setProperty("hadoop.home.dir", "F:\\winutils")
-    System.setProperty("hadoop.home.dir", "C:\\hadoop\\winutils")
+    System.setProperty("hadoop.home.dir", "F:\\winutils")
+    //System.setProperty("hadoop.home.dir", "C:\\hadoop\\winutils")
     val ssc = new StreamingContext(conf, Seconds(2))
     val sc = ssc.sparkContext
 

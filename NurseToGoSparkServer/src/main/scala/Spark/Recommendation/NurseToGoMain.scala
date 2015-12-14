@@ -28,7 +28,7 @@ object NurseToGoMain {
 //    /*--------------------------*/
 //Removed part
     var age:String = ""
-    val ip=InetAddress.getByName("10.205.1.44").getHostName//  //iOS address
+    val ip=InetAddress.getByName("10.205.1.32").getHostName//  //iOS address
     val lines=ssc.socketTextStream(ip,1234)
 
     val command= lines.map(x=>{
@@ -59,7 +59,7 @@ object NurseToGoMain {
           val tweetWithSentiment: TweetWithSentiment = sentimentAnalyzer.findSentiment("click here for your Sachin Tendulkar personalized digital autograph.")
           System.out.println(tweetWithSentiment.toString().replaceAll("sentiment : ",""))
          // iOSConnector.sendCommandToRobot("sentiment:::"+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
-          iOSConnector.sendCommandToRobot("sentiment is positive");//+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
+         // iOSConnector.sendCommandToRobot("sentiment is positive");//+tweetWithSentiment.toString().replaceAll("sentiment : ",""))
         }
        // TwitterSentimentMain.main(args: Array[String])
 
